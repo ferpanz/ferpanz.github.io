@@ -16,6 +16,7 @@ body {
     padding: 10px 10px 10px 10px;
     margin: 2px;
     text-decoration: none;
+    text-align:center !important;
 }
 /** Cambio de color de los botones al pasar el puntero (Ver si esto es necesario) */
 .nav-link:hover{
