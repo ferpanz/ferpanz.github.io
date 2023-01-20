@@ -7,6 +7,11 @@ body {
 .card-title{
     font-weight: bold;
 }
+.card-body:hover{
+    border-style: solid;
+    border-color: #1C6EA4;
+}
+
 /** Estilo de los "botones" de la barra de navegación */
 .nav-link {
     display: inline;
