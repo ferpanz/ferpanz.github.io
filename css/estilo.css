@@ -7,10 +7,12 @@ body {
 .card-title{
     font-weight: bold;
 }
+/** esto por ahora no pero no se descarta
 .card-body:hover{
     border-style: solid;
     border-color: #1C6EA4;
 }
+*/
 
 /** Estilo de los "botones" de la barra de navegación */
 .nav-link {
