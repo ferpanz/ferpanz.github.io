@@ -4,19 +4,14 @@ body {
     background: -webkit-linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
     background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
 }
-.card-title{
+
+span{
     font-weight: bold;
 }
-/** esto por ahora no pero no se descarta
-.card-body:hover{
-    border-style: solid;
-    border-color: #1C6EA4;
-}
-*/
 
 /** Estilo de los "botones" de la barra de navegación */
 .nav-link {
-    display: inline;
+    display: inline-block;
     border-radius: 10px;
     background-color: #5b8f8f;
     color: black;
@@ -25,10 +20,12 @@ body {
     text-decoration: none;
     text-align:center !important;
 }
+
 /** Cambio de color de los botones al pasar el puntero (Ver si esto es necesario) */
 .nav-link:hover{
     background: #65eeee;
 }
+
 /** Fondo de la barra de navegación */
 nav{
     background: #CE5937;
@@ -36,13 +33,21 @@ nav{
     background: -webkit-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
     background: linear-gradient(to right, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
 }
+
 button{
     position: fixed;
     right: 15px;
 }
+
 .card{
     margin: 5px;
 }
+
+.card-title{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
 .btn{
     margin: 1px;
 }
