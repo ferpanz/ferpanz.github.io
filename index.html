@@ -18,40 +18,10 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-<script src="js/inicio.js"></script>
-<!-- NavBar de Bootstrap modificada por mí-->
-<nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-    <a class="navbar-brand">
-      <img src="imágenes/Logo.png" alt="Logo" width="40" height="34" class="d-inline-block align-text-top">
-      Fernán Barberón
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="mailto: ferpanz@gmail.com" target="_blank">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA90lEQVRIS91V7Q2CMBCFCdQJxE3YQEfAyWQE3IBRdAJ1An3PtOTSXL3ahj9t8oLSu3sfRWyblVe78vymLoIecV2ArjC2G/rPwMw5MiJu7AuH+3bOOoQEb7d7xfWYSSR7v+KlA0/AeydgBDaJRC/UDcAEyDkqwQ5FT2DrSCw3VM3hvufhREUdsJCHRDVcMTdSta/jQ0JhSzpaRD4VEpBIcxOq5mAKkSvqQBZpbrgv3UnVfxNobniPMWiqswnY6N3wc0x1EUEQsfk16QzMKT8KKiTgIaa+Gqzo7ijoll+bq+5xHYHSNyqHD8AcEliqsvbr+svMisBq+gCgWDYZ/Xo8zgAAAABJRU5ErkJggg=="/>
-           E-mail</a>
-        <a class="nav-link active" aria-current="page" href="https://t.me/ferpanz" target="_blank">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABYUlEQVRIS9WU4VHDMAxG0wnKBrQTABvABnQCwgTABmUDOkG7AXQCygawQdkANuB7OamnmPiSGvqjutM5TuzvyZKcUXVgGx1YvzpKwLmyciLfkJ3/OgGCN/J7+cTS3mj/FXBtwozRPh1UAiBCoq1DtN96/pKfGmWtsYHuA0AQ4csk2oXmL/JnOanCHuRPQwAU7M6i8c2uTxr8FMsEeqX5JgfwgrEZQJc96uXcAKl4SzemiKN7bjO61ZuJbi0FnC61jxhYBLzrw1lGmSIScZNX2cqC6VpOTWjXxtIiU3lOwhg7otacLiF9pCRtywi6tQA6AXFh60aa+KvGXF1874UeyEYvIMKIfIj4r6wMvQekDUCf0QSs3VkJgIKPMyRv32IALUiEFJmOSkEzveNW7w2YmyjidBNGsVfy2NpTzbclgIkJu7hrUHxOwgXd/UFLAHFP1zOnAd6KnoVDi9wHyH4/fsAPwAU5GX9kMFUAAAAASUVORK5CYII="/>
-           Telegram</a>
-        <a class="nav-link active" aria-current="page" href="https://www.instagram.com/fernanbarberon1/" target="_blank">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABVUlEQVRIS8WVgVECMRBFuQqwA6ED7OCsAKkArEA7UDvQCjgrgA6gA7UD6EAr0P+YXSdkEshw3JCZncxdsv/v/3vJVb2OR9Uxfu9iBLWUTRXMgyMqN1pfK95t3tueUjDTjvmJ1t0rrwlzYwIqXp0I7mm3oZKYAHasKR0/ZuOd5idLwipc2I2YYKN31xl0Ej9tbWSF8HyjgGBha2AMcwS/CfAvq8jBfQskjYKcgeIqyP0vPFaQIqBCqsKCmYEA/GLAH4miigncz1eBPERAb3p+NBVx34oJqPJZ8a3oRwTuNeveYN9yFoKtWdSKwC1Kgbi6pYjGkbpiBeTRZL4gSMIm88yX1KrJEOD1xEjCQgHn1Ief59EeAJY7aFgRHjQOV2p4b3Zrba+KFMHBq6I22Zniil4fvOxAoJGdXddeIkogYs71xPfi+VrR2Lwn82K/zCKzSzZ1ruAP7A1HGQIYrwwAAAAASUVORK5CYII="/>
-           Instagram</a>
-        <a class="nav-link active" aria-current="page" href="https://mastodon.social/@ferpanz" target="_blank">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABfklEQVRIS8WVjTFDQRDHkwpQgagAFXgqQAkqQAXoQAfSASqQdEAFogI6YH9v9jL/rH33koywMzu5dx//j73c3XCw4RhuGH9QI2iM/MiS323LgyDmxb4/LSee00xsRnBqE+8ddBWDkJ1bPuqiSIDK5zXAFfPQPnDXRiTALmUp8WqNsZcCZyc+8ORKR/ZL/76sAeM4I6DOHzKRmjYqTcgupZ91lEWF7bioBQeAUZ4SZ76QsqEc1TMfRHnpoxy4eJC1OMBJlaCUj4moA3zPQWjvWqrLLyG4svbdsgS6sJD29RX3SznoA8tIVyrRnxK0G2fRSL1/1YHgzpu1fanuQaY2I4jzFs5PPMla7wysr4+TT/m4l9qIBBwaPfZ9gGX83Rpj/+/PwTMCDsdFQOXYc5pHnmUYIATNPFMx0QEgb2EmVzDq1orsPbgxpGtBQymXG5uH2hKNNyY15q4XLZJ0YdzaAHM7o/ZkUi5uSZSSW4KCG+rPnqmrH0T/+ujXnC899g0fAVoZ4Ga13AAAAABJRU5ErkJggg=="/>
-           Mastodon</a>
-        <a class="nav-link active" aria-current="page" href="https://open.spotify.com/show/5BCFPXI2pm9e3vvIwDwygD?si=f4c92c4ab80d41ed" class="barra-nav" target="_blank">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABrklEQVRIS7WVAVHEQAxFewrAAUUBoIA6ABQADkABxQEo4FAAKLjiAByAAxzAf5DcpNttry1zO5PZXjfJ//nJ9hbFltdiy/mLMQCnInEiK2WVEWq0f8ieZS9DJIcASPZgiYdyAHRtYB2/PoBanjcT5bszoFZYDmBOck96r4eriJACIMtqIvPU/SzKlQKg555FfGp/M0uTlNab4wwZcuz7+wjAtDzZwaX25YhKduVD1cgSwdZVRAASnlvSWntjwYfaSRQXZzBlRL/sACDGdkf2KLvgfQQgKFcyfu+WqNTuEjogcbdGCEkPZOxHKcB3m2RBmTjCNF1UhfklzLj8kY8VpACVzpHGk/EMGAbwqwx5Shl3gNseVweg0WmfRDmGvFvKkAeQON5ICrFWBTh7kzmjgTTNGTtbkhFcZVg7kWyT45jiWFtyl8iDqRSJIAAYJGhsXNkxxQG26ZQkseufVIT29CZ+HrigAP+u9CanVfQlH3o/+KkgsJZN/ZI64MaPnTvOAekkz0kUS0cuNN7UEzSnBzS7s8b+ZQLGNPm0MOdMEkmzifuaPKepgzFjKvgX6A+f6FMZby5rLQAAAABJRU5ErkJggg=="/>
-           Podcast</a>
-        <a class="nav-link active" aria-current="page" href="https://fediverse.tv/my-library/videos" target="_blank">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA40lEQVRIS8WW4RGCMAyFYQLYQJlE3EQn0A10Ex2FUXADN9D3PHKHBdI2tEfv8ivt+5JnWimLzKvMrF9ogBbwB2IfWUSP/WdEx3MagBt3keKynWcbH+BjFJdjv+K1DjYBHFHUM9A6UwfS8RWQO6JSbJwAxBIRmbNobGk9QC4LkNUA0eUY07aDA0oK4H1pUwNo0Q3B32NureqAohQnZGmZABzT0OfDBFAKnqS2B7w9F0nr5oUkx/fvLXIvGseO8x37olL8hOh8gBi/9VEasm4HyQFWz9W/3XHS6nkwIIklrkj2r4ovR2MsGQc4ZXkAAAAASUVORK5CYII="/>
-           Fediverse Tv</a>
-      </div>
-    </div>
-  </div>
-</nav>
+
+<!-- NavBar -->
+<div id="navbar"></div>
+
 <!-- Tarjeta con foto perfil -->
 <div class="container" id="tarjeta">
     <div class="card mb-3" style="max-width: 100%;">
@@ -163,17 +133,11 @@
 </div>
 
 <!-- Footer: pie de página -->
-<div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank"
-        class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        <img src="imágenes/Argentina_Programa.png" alt="Logo" width="40" height="34">
-      </a>
-      <span>Fernán Barberón|Argentina Programa 4.0</span>
-    </div>
-  </footer>
-</div>
+<div id="footer"></div>
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="/scripts/script.js"></script>
 </body>
 </html>
