@@ -1,152 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="CV-Fernán Barberón" />
-  <meta property="og:type" content="Currículum Vitae" />
-  <meta property="og:url" content=" https://ferpanz.github.io/" />
-  <meta property="og:image" content=" imágenes/captura de la página.png" />
-  <meta property="og:description" content="Presentación personal a modo de currículum" />
-  <title>CV-Fernán Barberón</title>
-  <link rel="icon" type="image/x-icon" href="imágenes/Logo.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">    
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/estilo.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js" defer></script>
+	<script src="data.js"></script>
+	<title>Fernán Barberón - Portfolio</title>
+	<link rel="icon" type="image/x-icon" href="./img/Logo.png">
 </head>
 <body>
-
-  <!-- NavBar -->
-  <div id="navbar"></div>
-
-  <br>
-      
-  <div class="container" id="contenedor_principal">
-    <div class="row align-items-center">
-        <!-- Columna izquierda -->
-        <div class="col-lg-4 col-md-12 mb-4">
-            <div class="card">
-                <img src="/imágenes/foto_perfil.jpg" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Sobre mí</h5>
-                    <p class="card-text">
-                        Entusiasta y decidido a aprender todo lo que pueda. Amante del conocimiento.
-                        <br><br>
-                        La filosofía y la literatura me abrieron las puertas para comprender más el mundo. 
-                        <br><br>
-                        Ya conozco una lengua antigua y muerta, el latín. 
-                        <br><br>
-                        Ya toco someramente la melodía del viento en las cañas andinas. 
-                        <br><br>
-                        Ya ladro en las guitarreadas en la madrugada regada por el rocío. 
-                        <br><br>
-                        Ya conozco en profundidad una lengua actual, moderna y propia, el español. 
-                        <br><br>
-                        Ya publiqué algún poema para el olvido. 
-                        <br><br>
-                        Ya es momento de aprender un lenguaje del futuro...
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Columna derecha con 4 cards -->
-        <div class="col-lg-8 col-md-12">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 mb-3">
-                    <div class="card" id="educacion">
-                        <div class="card-body">
-                            <h5 class="card-title">Educación</h5>
-                            <p class="card-text"><i class="bi bi-gear"></i>
-                              <span>Técnico y Bachiller en Mantenimiento Industrial</span><br>
-                              IPET 266 "General Savio" - Río Tercero - Córdoba - Argentina</p>
-                            <p><i class="bi bi-journal-bookmark-fill"></i>
-                              <span>Profesor en Lengua y Literatura de Nivel Medio</span><br>
-                              Instituto Privado Diocesano Dr. Alexis Carrel</p>
-                            <p><a href="/documents/certificado_Web.pdf" target="_blank"><i class="bi bi-code-square"></i></a>
-                              <span>Desarrollo WEB</span><br>
-                              Argentina Programa 4.0</p>
-                            <p><a href="/documents/certificado_Python.pdf" target="_blank"><i class="bi bi-code-square"></i></a>
-                              <span>Procesamiento de datos con Python</span><br>
-                              Argentina Programa 4.0</p>
-                            <p><i class="bi bi-code-square"></i></a>
-                              <span>Programación y Desarrollo Web</span><br>
-                              Instituto MAS | Cursando en 2024</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Experiencia laboral</h5>
-                            <p class="card-text">Mi experiencia laboral se encuentra íntimamente ligada a la tarea educativa,
-                              tanto en cuestiones pedagógicas como en el manejo de grupos de estudiantes
-                              y del personal que trabaja en la escuela.</p>
-                            <p><i class="bi bi-check-circle"></i>
-                                <span>11 años de antiguedad en la docencia</span>
-                                <br><br>
-                                <i class="bi bi-check-circle"></i>
-                                <span>Coordinador de Curso PIT 14/17</span> | 2013 (suplente)
-                                <br><br>
-                                <i class="bi bi-check-circle"></i>
-                                <span>Coordinador de Curso</span> | 2015-2020 
-                                <br><br>
-                                <i class="bi bi-check-circle"></i>
-                                <span>Vicedirector Interino</span> | 2020 a la actualidad</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-6 mb-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Contacto</h5>
-                            <p class="card-text">Tanto correo electrónico como las aplicaciones de mensajería instantánea y las redes sociales son impresindibles
-                              a la hora de comunicarse.</p>
-                            <p>¿Querés comunicarte conmigo? Hacelo por medio de algunas de las siguientes opciones...</p>
-                            <div class="container text-center">
-                            <a href="mailto:ferpanz@gmail.com" class="btn btn-primary" target="_blank"><i class="bi bi-envelope-at"></i></a>
-                            <a href="https://www.instagram.com/fernanbarberon1/" class="btn btn-primary" target="_blank"><i class="bi bi-instagram"></i></a>
-                            <a href="https://t.me/ferpanz" class="btn btn-primary" target="_blank"><i class="bi bi-telegram"></i></a>
-                            <a href="https://mastodon.social/@ferpanz" class="btn btn-primary" target="_blank"><i class="bi bi-mastodon"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mb-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Más sobre mí</h5>
-                            <p class="card-text">La literatura y la filosofía del software libre me han llevado por caminos inimaginados.</p>
-                            <p>En "La Cosa Literaria" convergen mi amor por la literatura, mi pasión por comunicar lo que sé y la filosofía del software libre.
-                              Producir y publicar un podcast implicó aprender de forma autodidacta sobre sonido, micrófonos, utilización de software y elementos
-                              de comunicación social.
-                            </p>
-                            <p>En cuanto a publicar videos sobre GNU/Linux tiene que ver con una doble necesidad:
-                              dejar una memoria de mis andanzas por linux y devolver a la comunidad algo de todo lo que he recibido.</p>
-                            <div class="container text-center">
-                            <a href="https://open.spotify.com/show/5BCFPXI2pm9e3vvIwDwygD?si=ce650514bf7748a3" class="btn btn-primary" target="_blank"><i class="bi bi-spotify"></i></a>
-                            <a href="https://fediverse.tv/c/ferpanz_/videos" class="btn btn-primary" target="_blank"><i class="bi bi-webcam-fill"></i></a>
-                            </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>              
-          </div>
-      </div>
-  </div>
-  
-  <br>
-  <!-- Footer: pie de página -->
-  <div id="footer"></div>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <script src="/scripts/script.js"></script>
+	<header>
+		<div>
+			<h1>Fernán Barberón</h1>
+			<p>Desarrollo WEB Front-End</p>
+		</div>
+		<img src="./img/perfil_sin_fondo.png">
+	</header>
+	<main>
+		<section>
+			<h2>Mi portfolio</h2>
+			<div id="proyectosContainer">
+			</div>
+		</section>
+	</main>
+	<aside class="tarjeta">
+	</aside>
+	<footer>
+		<p>Hecho por Fernán Barberón</p>
+	</footer>
 </body>
 </html>
