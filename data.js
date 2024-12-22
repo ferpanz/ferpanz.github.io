@@ -4,7 +4,7 @@ const proyectos = [
     descripcion:
       "App facilitadora de turnos. Permite elegir las diversas ofertas, días y horarios, y genera un mensaje de Whatsapp con la info necesaria para que el administrador se ponga en contacto con su cliente.",
     link: "https://sensesapp.netlify.app/",
-    fecha: "01/07/2024",
+    fecha: "",
     imagen: "senses.jpeg",
     tecnologias: ["HTMl","CSS","Bootstrap", "Angular"],
   },
@@ -13,9 +13,18 @@ const proyectos = [
     descripcion:
       "Página del I.P.E.T. N°98 Luis de Tejeda de la ciudad de Río Tercero. La página tiene como objetivo dar presencia en la red a la institución con sus ofertas educativas.",
     link: "https://ipet98.netlify.app/",
-    fecha: "01/07/2024",
+    fecha: "",
     imagen: "ipet98.png",
     tecnologias: ["HTMl","CSS","Bootstrap", "Angular"],
+  },
+  {
+    titulo: "Portfolio personal",
+    descripcion:
+      "Portfolio basado en la propuesta del canal de Youtube 'Punto Json'. Contiene información personal básica presentando mis habilidades tecnológicas y los proyectos en los que he trabajado.",
+    link: "https://ferpanz.github.io",
+    fecha: "",
+    imagen: "Logo.png",
+    tecnologias: ["HTMl","CSS","Javascript"],
   },
     
 ];
