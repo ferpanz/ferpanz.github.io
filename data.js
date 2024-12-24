@@ -44,8 +44,8 @@ const informacionPersonal = {
     ["Español", "Nativo"],
   ],
   tecnologias: [
-    ["Html", 9],["Css", 9],["Javascript", 8],["Typescript", 6],["Angular", 7],
-    ["Bootstrap", 8],
+    ["Html", 90],["Css", 90],["Javascript", 70],["Typescript", 60],["Angular", 70],
+    ["Bootstrap", 80],
   ],
   redes: [
     ["telegram", "https://t.me/ferpanz"],
