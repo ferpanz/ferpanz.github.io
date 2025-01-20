@@ -26,6 +26,24 @@ const proyectos = [
     imagen: "Logo.png",
     tecnologias: ["HTMl","CSS","Javascript"],
   },
+  {
+    titulo: "App de Pedidos",
+    descripcion:
+      "App para realizar pedidos. La app busca optimizar el flujo de pedidos en rotiserías y restaurantes ofreciendo un mensaje ya armado donde figure el pedido, sus costos y el modo de entrega o retiro.",
+    link: "https://ferpanz.github.io",
+    fecha: "",
+    imagen: "appPedidos.png",
+    tecnologias: ["HTMl","CSS","Angular","TypeScript"],
+  },
+  {
+    titulo: "App de Pedidos",
+    descripcion:
+      "Landing Page para promocionar la App de Pedidos. Forma parte de la carta de presentación a los potenciales clientes.",
+    link: "https://ferpanz.github.io",
+    fecha: "",
+    imagen: "webPedidos.png",
+    tecnologias: ["HTMl","CSS","Bootstrap"],
+  },
     
 ];
 
