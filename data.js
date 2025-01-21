@@ -6,7 +6,7 @@ const proyectos = [
     link: "https://sensesapp.netlify.app/",
     fecha: "",
     imagen: "senses.jpeg",
-    tecnologias: ["HTMl","CSS","Bootstrap", "Angular"],
+    tecnologias: ["HTML","CSS","Bootstrap", "Angular"],
   },
   {
     titulo: "IPET N°98 Luis de Tejeda",
@@ -15,7 +15,7 @@ const proyectos = [
     link: "https://ipet98.netlify.app/",
     fecha: "",
     imagen: "ipet98.png",
-    tecnologias: ["HTMl","CSS","Bootstrap", "Angular"],
+    tecnologias: ["HTML","CSS","Bootstrap", "Angular"],
   },
   {
     titulo: "Portfolio personal",
@@ -24,7 +24,7 @@ const proyectos = [
     link: "https://ferpanz.github.io",
     fecha: "",
     imagen: "Logo.png",
-    tecnologias: ["HTMl","CSS","Javascript"],
+    tecnologias: ["HTML","CSS","Javascript"],
   },
   {
     titulo: "App de Pedidos",
@@ -33,7 +33,7 @@ const proyectos = [
     link: "https://ferpanz.github.io",
     fecha: "",
     imagen: "appPedidos.png",
-    tecnologias: ["HTMl","CSS","Angular","TypeScript"],
+    tecnologias: ["HTML","CSS","Angular","TypeScript"],
   },
   {
     titulo: "App de Pedidos",
@@ -42,7 +42,7 @@ const proyectos = [
     link: "https://ferpanz.github.io",
     fecha: "",
     imagen: "webPedidos.png",
-    tecnologias: ["HTMl","CSS","Bootstrap"],
+    tecnologias: ["HTML","CSS","Bootstrap"],
   },
     
 ];
