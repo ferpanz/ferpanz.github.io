@@ -30,7 +30,7 @@ const proyectos = [
     titulo: "App de Pedidos",
     descripcion:
       "App para realizar pedidos. La app busca optimizar el flujo de pedidos en rotiserías y restaurantes ofreciendo un mensaje ya armado donde figure el pedido, sus costos y el modo de entrega o retiro.",
-    link: "https://ferpanz.github.io",
+    link: "https://rotiseriasapp.netlify.app/",
     fecha: "",
     imagen: "appPedidos.png",
     tecnologias: ["HTML","CSS","Angular","TypeScript"],
@@ -39,7 +39,7 @@ const proyectos = [
     titulo: "App de Pedidos",
     descripcion:
       "Landing Page para promocionar la App de Pedidos. Forma parte de la carta de presentación a los potenciales clientes.",
-    link: "https://ferpanz.github.io",
+    link: "https://webapppedidos.netlify.app/",
     fecha: "",
     imagen: "webPedidos.png",
     tecnologias: ["HTML","CSS","Bootstrap"],
