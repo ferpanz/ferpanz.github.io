@@ -169,6 +169,7 @@ aside div span:last-child{
 
 /* Elemento progress */
 progress {
+  appearance: none;
   -webkit-appearance: none;
   width: 100%;
 }
