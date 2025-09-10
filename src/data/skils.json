@@ -1,0 +1,28 @@
+{
+  "nombre": "Fernán Barberón",
+  "subtitulo": "Desarrollador FullStack",
+  "otros": [
+    ["Nacionalidad", "Argentino"],
+    ["Edad", "44 años"]
+  ],
+  "idiomas": [
+    ["Español", "Nativo"]
+  ],
+  "tecnologias": [
+    ["Html", 90],
+    ["Css", 90],
+    ["Javascript", 80],
+    ["Typescript", 50],
+    ["Angular", 50],
+    ["React", 80],
+    ["Bootstrap", 80]
+  ],
+  "redes": [
+    ["telegram", "https://t.me/ferpanz"],
+    ["linkedin", "https://www.linkedin.com/in/fern%C3%A1n-barber%C3%B3n-a36576171?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bx%2FGfK5wgRIqDvWCFUU0YHg%3D%3D"],
+    ["mastodon", "https://mastodon.social/@ferpanz"],
+    ["fediverso", "https://fediverse.tv/c/ferpanz_/videos"],
+    ["instagram", "https://www.instagram.com/fernanbarberon1/"],
+    ["mail", "mailto:ferpanz@gmail.com"]
+  ]
+}

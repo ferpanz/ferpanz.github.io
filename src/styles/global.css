@@ -1,0 +1,33 @@
+body {
+    background-color: #283B58;
+}
+
+.header-bg {
+  background-image: url('../assets/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 220px; /* Ajusta la altura según lo que necesites */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-principal{
+    background-color: #283B58;
+}
+
+.bg-acento{
+    background-color: #FF6A4D;
+}
+
+.bg-targeta{
+    background-color: #3A4E6A;
+}
+
+.card-img-top.grayscale-hover {
+  filter: grayscale(0.8);
+  transition: filter 0.2s;
+}
+.card:hover .card-img-top.grayscale-hover {
+  filter: grayscale(0);
+}
