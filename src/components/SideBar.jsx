@@ -22,7 +22,7 @@ const SideBar = () => {
   return (
     <div className="bg-targeta p-4 d-flex flex-column align-items-center min-vh-100 rounded-3">
       <img
-        className="rounded-circle mb-3"
+        className="rounded-circle mb-3 d-none d-md-block"
         style={{ width: 120, height: 120, objectFit: 'cover' }}
         src={logo}
         alt="logo"
